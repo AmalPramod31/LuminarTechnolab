@@ -1,0 +1,13 @@
+.nav-link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.nav-link:hover{
+    color: blueviolet;
+    text-decoration: underline 3px blueviolet;
+
+}
