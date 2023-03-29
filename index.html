@@ -27,30 +27,134 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
                     <li class="nav-item">
-                        <a class="nav-link "  aria-current="page"
-                            href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#">Placements</a>
+                        <a class="nav-link" href="#">Placements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#">Gallery</a>
+                        <a class="nav-link" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#">About Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
 
                     <li class="nav-item ">
-                        <a class="nav-link" >Contact</a>
+                        <a class="nav-link">Contact</a>
                     </li>
                 </ul>
 
             </div>
         </div>
     </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="1000">
+                <img src="./2.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+                    <h1 class="text-white " style="font-size: 50px;"><br> Kerala No.1 IT Finishing School <br> 100%
+                        Placement Assistance
+                    </h1> <br><br>
+                    <p class="text-white text-start" style="font-size: small; ">We LUMINAR TECHNOLAB offers best
+                        software training and placements in emerging <br>technologies like Big Data, Haddoop, Spark,
+                        Data Science, Machine learning, Deep <br> Learning and AI</p>
+                    <br><br><button type="button" class="btn btn-primary btn-lg"
+                        style="background-color: blueviolet; border-radius: 40px; padding: 20px; font-size: medium; border-color: blueviolet;">VIEW
+                        COURSES</button>
+
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="./3.jpg" class="d-block w-100" style="height: 500px; " alt="...">
+                <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+                    <h1 class="text-white text-start fs-1">Data Science, ML & Ai <br>Big Data - Hadoop & Spark
+                        <br>Python Data Science
+                    </h1>
+                    <br><br>
+                    <p class="text-white text-start">We LUMINAR TECHNOLAB offers best software training and placements
+                        in emerging <br>technologies like Big Data, Haddoop, Spark, Data Science, Machine learning, Deep
+                        <br> Learning and AI
+                    </p>
+                    <br><br>
+                    <button type="button" class="btn btn-primary btn-lg"
+                        style="background-color: blueviolet; border-radius: 40px; padding: 20px; font-size: medium; border-color: blueviolet;">VIEW
+                        COURSES</button>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        style="background-color: white; width: 600px; height: 600px; border-color: white;">
+        <div class="modal-dialog">
+            <div class="modal-content" style="border-color: white;">
+                <div class="modal-header" style="border-color: white;">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="modal-title fs-5 w-75 container" id="exampleModalLabel">Get Training Quote for free</h1>
+                    <br><br>
+                    <form action="" class="w-75 container">
+                        <div>
+                            <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <hr>
+                        <div><input class="form-control" type="email" placeholder="Email"></div>
+                        <hr>
+                        <div><input class="form-control" type="text" placeholder="Phone number"></div>
+                        <hr>
+                        <div class="dropdown">
+                            <button class="btn width-100 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="width: 75px;">
+                                Select Course Interested in:
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div><input class="form-control" type="text" placeholder="City"></div>
+                        <hr>
+                        <div><input class="form-control" type="text" placeholder="Comments"></div>
+                    </form>
+                    <div class="mt-5 w-75 container">
+                        <button style="background-color: blueviolet; color: white; width: 150px; border-color: blueviolet;"><strong>Submit</strong></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
