@@ -11,3 +11,12 @@
     text-decoration: underline 3px blueviolet;
 
 }
+#cvb{
+    transition: .5s ease-in-out;
+
+   
+}
+#cvb:hover{
+   box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
